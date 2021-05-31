@@ -39,6 +39,9 @@ beverages.add(cold)
 
 ### depth first traversal
 
+This simple code uses the recursion process the next node.
+
+
 ```swift
 extension TreeNode {
     public func forEachDepthFirst(visit: (TreeNode) -> Void) {
