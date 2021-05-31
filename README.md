@@ -37,7 +37,7 @@ beverages.add(cold)
 
 
 
-### depth first traversal
+### Depth first traversal
 
 This simple code uses the recursion process the next node.
 
@@ -54,8 +54,11 @@ extension TreeNode {
 
 ```
 
-// Level Order Traversal
+### Level Order Traversal
 
+Now we need to create a Queue to make sure the nodes are visited in the right level order 
+
+```swift
 extension TreeNode {
     public func forEachLevelOrder(visit: (TreeNode) -> Void) {
         visit(self)
@@ -72,7 +75,9 @@ extension TreeNode {
     }
 }
 
+```
 
+```swift
 func makeBeverageTree() -> TreeNode<String> {
     let tree = TreeNode("Beverages")
     
