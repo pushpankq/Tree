@@ -7,6 +7,8 @@ A tree is a data structure similar to a linked list but instead of each node poi
 In trees ADT (Abstract Data Type), the order of the elements is not important. If we need ordering information, linear data structures like linked lists, stacks, queues, etc. can be used.
 
 
+### Tree Node 
+
 ```swift
 
 public class TreeNode<T> {
@@ -30,6 +32,10 @@ let cold = TreeNode("cold")
 
 beverages.add(hot)
 beverages.add(cold)
+
+```
+
+
 
 // depth first traversal
 
