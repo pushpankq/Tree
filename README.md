@@ -37,8 +37,9 @@ beverages.add(cold)
 
 
 
-// depth first traversal
+### depth first traversal
 
+```swift
 extension TreeNode {
     public func forEachDepthFirst(visit: (TreeNode) -> Void) {
         visit(self)
@@ -47,6 +48,8 @@ extension TreeNode {
         }
     }
 }
+
+```
 
 // Level Order Traversal
 
